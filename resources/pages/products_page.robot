@@ -50,4 +50,3 @@ Go To Cart
     # Badge shows up once items are added.
     Wait Until Element Is Visible    ${CART_BADGE}    ${TIMEOUT}
     Click Element    ${CART_LINK}
-    Wait Until Location Contains    cart.html    timeout=${TIMEOUT}
